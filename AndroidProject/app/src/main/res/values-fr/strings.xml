@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ProjectFinalAndroid</string>
+    <string name="main_menu_toolbar">Rechercher un cocktail</string>
+    <string name="group_names">Daniel Dos Santos Porto Barboza\nDongkwan Kim\nChloe Lee-Hone\nFrederico Lucio Macedo</string>
+    <string name="drawer_open">Ouvert</string>
+    <string name="drawer_close">Fermé</string>
+    <string name="version">Version</string>
+    <string name="cocktail_searcher_drawer">Rechercher un cocktail</string>
+    <string name="user_instructions">Entrez le nom d\'un cocktail:</string>
+    <string name="search_button">Trouver une recette</string>
+    <string name="user_instructions_hint">Nom du cocktail&#8230;</string>
+    <string name="saved_user_drink">cocktail de l\'usager</string>
+    <string name="cocktail_button">Trouver une recette</string>
+    <string name="cocktail_search_result">Résultats</string>
+    <string name="cocktail_help_menu">Activité Cocktail</string>
+    <string name="cocktail_help_menu_button">Aide</string>
+    <string name="cocktail_menu_help_message">Entrez le nom d\'un cocktail dont vous cherchez la recette, puis appuyez sur le bouton indiqué \"Trouver une recette\".\n\nPour voir vos cocktails favoris, appuyez sur le bouton indiqué \"Mes Cocktails Favoris\".</string>
+    <string name="cocktail_help_menu_title">Comment utiliser cette application</string>
+    <string name="alert_message_button">Je comprends</string>
+    <string name="list_alert_title">Sauvegarder cette recette</string>
+    <string name="list_alert_selected_row">Voulez-vous sauvegarder cette recette dans la base de données?</string>
+    <string name="list_prompt_yes">Oui</string>
+    <string name="list_prompt_no">Non</string>
+    <string name="load_database_button">Mes cocktails favoris</string>
+    <string name="add_db_button">Ajouter aux favoris</string>
+    <string name="toast_db_added">fut ajouté à vos favoris</string>
+    <string name="toast_db_removed">fut supprimé de vos favoris</string>
+    <string name="search_toast">Le nom du cocktail ne peut pas être vide</string>
+    <string name="list_alert_delete_title">Supprimer de vos favoris</string>
+    <string name="list_alert_delete_message">Voulez-vous supprimer ce cocktail de vos favoris?</string>
+    <string name="fragment_cocktail_name">Nom du cocktail:</string>
+    <string name="fragment_cocktail_instructions">Instructions:</string>
+    <string name="fragment_cocktail_ingredient1">Premier ingredient:</string>
+    <string name="fragment_cocktail_ingredient2">Deuxième ingredient:</string>
+    <string name="fragment_cocktail_ingredient3">Troisième ingredient:</string>
+</resources>
