@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Icon source [1] -->
+    <item
+        android:id="@+id/main_menu_cocktail_item"
+        android:icon="@drawable/cocktail_icon"
+        android:title="@string/cocktail_searcher_drawer"
+        app:showAsAction="always"/>
+</menu>
+
+<!-- Reference cited:
+[1] Freepik, “Cocktail icon,” Flaticon. https://www.flaticon.com/free-icon/cocktail_2796360?related_id=2796360 (accessed Aug. 05, 2022).
+-->

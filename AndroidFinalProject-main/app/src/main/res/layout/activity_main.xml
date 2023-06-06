@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/main_activity_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:openDrawer="start">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- Image comes from [3] -->
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="282dp"
+                android:layout_height="141dp"
+                android:layout_marginTop="100dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/cocktail" />
+
+            <Button
+                android:id="@+id/cocktailButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cocktail_button"
+                android:layout_marginTop="50dp"
+                android:layout_gravity="center"
+                android:backgroundTint="@color/lighter_teal_blue"/>
+
+            <include layout="@layout/activity_header_layout" />
+
+        </LinearLayout>
+
+
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/navigation_view"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true"
+            app:headerLayout="@layout/activity_header_layout"
+            app:menu="@menu/main_activity_menu">
+            <!-- Must be included here to set the version dynamically in MainActivity [2],[3]-->
+        </com.google.android.material.navigation.NavigationView>
+
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</LinearLayout>
+
+<!-- References cited:
+[1] A. Raths, “Set Of Various Cocktails With On Black Background Stock Photo,” DreamsTime. https://www.dreamstime.com/set-various-cocktails-black-background-set-various-cocktails-shaker-black-background-image188649882 (accessed Aug. 09, 2022).
+[2] AndroidDeveloper, “Re-using layouts with <include/>,” Android Developers. https://developer.android.com/training/improving-layouts/reusing-layouts (accessed Aug. 06, 2022).
+[3] ferris, “Answer to ‘findViewByID returns null,’” Stack Overflow, Jul. 09, 2016. https://stackoverflow.com/a/38277636 (accessed Aug. 06, 2022).
+-->
