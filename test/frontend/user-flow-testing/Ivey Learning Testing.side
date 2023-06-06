@@ -1,0 +1,898 @@
+{
+  "id": "2942fa6d-7e68-4246-8eec-105f855676d6",
+  "version": "2.0",
+  "name": "Ivey Learning Testing",
+  "url": "https://learnwithivey.co",
+  "tests": [{
+    "id": "10784a04-0b0b-4e9c-8f1c-a2b5e4db86b6",
+    "name": "Login as Student",
+    "commands": [{
+      "id": "6fbcece2-a75a-43cb-8f4b-5ef50c2b62f0",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "06ff6eb1-5202-43b9-8daa-62fc40800a31",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x766",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "968642b6-0974-44a9-896b-22c9d3059057",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[5]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-624']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c7f1af7-6b2a-491e-ba95-4a973d99c1da",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b6716e7f-4401-456d-94fe-889bddf646a6",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "firstlast"
+    }, {
+      "id": "2fd71af6-1054-4eef-9540-22f55f87bee9",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Password1"
+    }, {
+      "id": "e516b2eb-891e-4a83-ac7a-262928315d57",
+      "comment": "",
+      "command": "click",
+      "target": "id=um-submit-btn",
+      "targets": [
+        ["id=um-submit-btn", "id"],
+        ["css=#um-submit-btn", "css:finder"],
+        ["xpath=//input[@id='um-submit-btn']", "xpath:attributes"],
+        ["xpath=//article[@id='post-116']/div/div/div/div/form/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53fde1eb-42fa-4382-9b5e-26d41c2010f6",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Logout",
+      "targets": [
+        ["linkText=Logout", "linkText"],
+        ["css=.tutor-dashboard-menu-logout > .tutor-dashboard-menu-item-link", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[9]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/dashboard/logout')]", "xpath:href"],
+        ["xpath=//li[9]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3649498f-0984-4027-a6fc-3cd27b3581eb",
+    "name": "View Case Study as Student",
+    "commands": [{
+      "id": "302ada67-a89b-43ea-ac52-7a23d3a9d2e4",
+      "comment": "",
+      "command": "open",
+      "target": "http://learnwithivey.co/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a9cf5c09-e38c-4ecd-ad86-f730366e0bc3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1936x1048",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d21402a4-f2b1-4b0f-94bd-b7a74a19c089",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[5]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-624']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://learnwithivey.co/login/']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e47023d0-02bf-40a4-bb8b-4053135879b7",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72384953-f932-4c70-8f22-ba8bc6a7fac5",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "firstlast"
+    }, {
+      "id": "c8b3d35c-ec4a-4aff-91a3-630dd3b03016",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "23182fea-bb6b-49b7-af88-2e86e116fd80",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Password1"
+    }, {
+      "id": "85c381c9-eab6-4a3c-ab70-e2d8591f56d0",
+      "comment": "",
+      "command": "click",
+      "target": "id=um-submit-btn",
+      "targets": [
+        ["id=um-submit-btn", "id"],
+        ["css=#um-submit-btn", "css:finder"],
+        ["xpath=//input[@id='um-submit-btn']", "xpath:attributes"],
+        ["xpath=//article[@id='post-116']/div/div/div/div/form/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6009f5e2-a544-420f-aa4b-ca11fc474dc5",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Ivey Cases",
+      "targets": [
+        ["linkText=Ivey Cases", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Ivey Cases')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[2]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-484']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/ivey-cases/')]", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Ivey Cases')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d4c0ca3-29d6-4808-95cb-24e5f9360088",
+      "comment": "",
+      "command": "click",
+      "target": "css=.has-quaternary-color",
+      "targets": [
+        ["css=.has-quaternary-color", "css:finder"],
+        ["xpath=(//a[contains(text(),'Case Study 1')])[2]", "xpath:link"],
+        ["xpath=//article[@id='post-188']/div/div/div/div/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://learnwithivey.co/case-studies/case-study-1/']", "xpath:href"],
+        ["xpath=//div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61a68233-ca02-432d-a5be-ca0bb1753e44",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account Dashboard",
+      "targets": [
+        ["linkText=Account Dashboard", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Account Dashboard')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[8]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-504']/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://learnwithivey.co/dashboard/']", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1050fe36-0f6d-4c5b-a2fb-c04314685dca",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[9]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "4e519198-6236-4227-9aca-32484036b930",
+    "name": "View FAQ",
+    "commands": [{
+      "id": "07a7e1c3-3310-4f69-b3d7-1ea02320aa36",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1c449108-6c4d-486b-96d9-1f18e5d770cc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x766",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "fbb9ce33-c471-4bc4-b4cf-88a0f76d1798",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=FAQ",
+      "targets": [
+        ["linkText=FAQ", "linkText"],
+        ["css=#menu-item-595 > a", "css:finder"],
+        ["xpath=//a[contains(text(),'FAQ')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[10]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-595']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/frequently-asked-questions/')]", "xpath:href"],
+        ["xpath=//nav/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'FAQ')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ac2c145a-278f-42d6-93e8-6bbe8e017d21",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(1) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(1) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div/details/summary", "xpath:idRelative"],
+        ["xpath=//summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'What is Ivey-Learning’s purpose?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54d187a3-dcf1-4c8c-98a5-d02f77994352",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(2) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(2) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div[2]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[2]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b41c6d0e-363f-492f-afb3-3a8b73a21ade",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(3) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(3) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div[3]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[3]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b3a66c7-205c-440d-861a-b5faa51145c8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(4) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(4) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div[4]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[4]/details/summary", "xpath:position"],
+        ["xpath=//summary[contains(.,'How is Ivey-Learning funded?')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f385a7f-2d41-4877-b599-327fb1286268",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(5) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(5) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div[5]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[5]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3535f606-113a-4689-a6ef-472a8cf4d1cb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(6) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(6) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div[6]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[6]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad459464-f235-46f2-aa4a-99d25724c78b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.wp-block-coblocks-accordion-item:nth-child(7) .wp-block-coblocks-accordion-item__title",
+      "targets": [
+        ["css=.wp-block-coblocks-accordion-item:nth-child(7) .wp-block-coblocks-accordion-item__title", "css:finder"],
+        ["xpath=//article[@id='post-587']/div/div/div/div/div/div[7]/details/summary", "xpath:idRelative"],
+        ["xpath=//div[7]/details/summary", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "53839b42-9aad-4d4d-a86b-885850685921",
+    "name": "View Enrolled Courses as Student",
+    "commands": [{
+      "id": "42c3c604-81b6-4104-9d65-bf9451d6d89a",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "409fc49c-f74a-43b5-b631-3363ece5a8f5",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x766",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "87609f49-ebff-4208-9568-5215c93e35df",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[5]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-624']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1419fb0e-5219-45f5-908e-e20df864eab9",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1255106a-a9a6-4370-9005-756ed36ae2cf",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "firstlast"
+    }, {
+      "id": "a68d7f1d-f64c-4c41-bcc7-98683d538bbb",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ab962c00-9d05-4d9f-857c-d97ce7ae5b48",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Password1"
+    }, {
+      "id": "baa93160-0fda-4c20-b67e-1563e6ab22c6",
+      "comment": "",
+      "command": "click",
+      "target": "id=um-submit-btn",
+      "targets": [
+        ["id=um-submit-btn", "id"],
+        ["css=#um-submit-btn", "css:finder"],
+        ["xpath=//input[@id='um-submit-btn']", "xpath:attributes"],
+        ["xpath=//article[@id='post-116']/div/div/div/div/form/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f44e2915-9684-422c-b5fb-b46e8d59ad18",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-enrolled-courses .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-enrolled-courses .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Enrolled Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7050e40c-a069-41d0-be16-060b9122aedb",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Business Fundamentals I",
+      "targets": [
+        ["linkText=Business Fundamentals I", "linkText"],
+        ["css=.tutor-course-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Business Fundamentals I')]", "xpath:link"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://learnwithivey.co/courses/business-fundamentals-i/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Business Fundamentals I')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1b5a1f02-a02f-4932-8436-a0acbd0ed3c4",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account Dashboard",
+      "targets": [
+        ["linkText=Account Dashboard", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Account Dashboard')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[7]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-504']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/dashboard/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5eb6cc38-d3a9-4375-a53d-efbae085afd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[9]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3f4e01f3-6146-44c7-a2db-b671aa7df293",
+    "name": "View Assignment Feedback as Student",
+    "commands": [{
+      "id": "665c5c91-d2cd-4b7d-a4ce-9f32751ff138",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f20cb610-8207-4c62-aef7-44bfd64ec61a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x766",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "69b8b4b1-b3ad-4d79-a0cc-ca5c518ada54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[5]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-624']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75c86d96-bf35-4374-b62e-f7561cc41583",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4ba90e74-d04d-476c-affe-632ae0f5ce15",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "firstlast"
+    }, {
+      "id": "fa673499-6728-41ef-a31b-6a7f8a9bd824",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21f80f17-7e92-46e0-8531-f55f761f86b0",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Password1"
+    }, {
+      "id": "e391277c-2b27-4f06-9793-edcaf217dd89",
+      "comment": "",
+      "command": "click",
+      "target": "id=um-submit-btn",
+      "targets": [
+        ["id=um-submit-btn", "id"],
+        ["css=#um-submit-btn", "css:finder"],
+        ["xpath=//input[@id='um-submit-btn']", "xpath:attributes"],
+        ["xpath=//article[@id='post-116']/div/div/div/div/form/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05f3a466-c082-4da0-9523-2432426f79a5",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-my-quiz-attempts .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-my-quiz-attempts .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[4]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[4]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'My Quiz Attempts')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c78dd89-01a0-4334-af03-9a67656e8992",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Details",
+      "targets": [
+        ["linkText=Details", "linkText"],
+        ["css=.tutor-btn-sm", "css:finder"],
+        ["xpath=//a[contains(text(),'Details')]", "xpath:link"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div[2]/div/div[2]/table/tbody/tr/td[8]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/dashboard/my-quiz-attempts/?view_quiz_attempt_id=2')]", "xpath:href"],
+        ["xpath=//td[8]/div/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Details')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f144c73-6270-4ac2-ade3-767407de7adf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[9]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "69fa99ae-2f24-4602-8406-75d5a8e3e64d",
+    "name": "Ask a Question on Course Page as Student",
+    "commands": [{
+      "id": "42932481-078b-4e23-a325-4bee3237f8b4",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "32f0fec0-f023-40bc-9010-fbd3e155c59d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1294x766",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "aa5c8ed6-d8f7-4f30-a7b4-2f2fb4c9b092",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Login",
+      "targets": [
+        ["linkText=Login", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Login')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[5]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-624']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/login/')]", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Login')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d428f0-4980-4350-96ee-922873183bcb",
+      "comment": "",
+      "command": "click",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "160ab6f3-ff80-41c5-a081-d692aee53e19",
+      "comment": "",
+      "command": "type",
+      "target": "id=username-96",
+      "targets": [
+        ["id=username-96", "id"],
+        ["name=username-96", "name"],
+        ["css=#username-96", "css:finder"],
+        ["xpath=//input[@id='username-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_username']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "firstlast"
+    }, {
+      "id": "67541426-e4bc-4781-974f-16b857589dca",
+      "comment": "",
+      "command": "click",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "724e9d2f-5d76-4757-91fc-124ac82bec6f",
+      "comment": "",
+      "command": "type",
+      "target": "id=user_password-96",
+      "targets": [
+        ["id=user_password-96", "id"],
+        ["name=user_password-96", "name"],
+        ["css=#user_password-96", "css:finder"],
+        ["xpath=//input[@id='user_password-96']", "xpath:attributes"],
+        ["xpath=//div[@id='um_field_96_user_password']/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div[2]/input", "xpath:position"]
+      ],
+      "value": "Password1"
+    }, {
+      "id": "f2955942-f9b3-4dc1-83da-89a3c0e6fe9d",
+      "comment": "",
+      "command": "click",
+      "target": "id=um-submit-btn",
+      "targets": [
+        ["id=um-submit-btn", "id"],
+        ["css=#um-submit-btn", "css:finder"],
+        ["xpath=//input[@id='um-submit-btn']", "xpath:attributes"],
+        ["xpath=//article[@id='post-116']/div/div/div/div/form/div[2]/div[3]/input", "xpath:idRelative"],
+        ["xpath=//div[3]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "544ef625-c214-4995-90bc-95a04556b1aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-enrolled-courses .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-enrolled-courses .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[3]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[3]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Enrolled Courses')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5dad270d-792f-4109-90c6-0f2ff74cc023",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Business Fundamentals I",
+      "targets": [
+        ["linkText=Business Fundamentals I", "linkText"],
+        ["css=.tutor-course-name > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Business Fundamentals I')]", "xpath:link"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div[2]/div/div[2]/div[2]/div/div[2]/div[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://learnwithivey.co/courses/business-fundamentals-i/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Business Fundamentals I')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cd10286c-5f63-4c81-b92e-b6d845021d11",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Q&A",
+      "targets": [
+        ["linkText=Q&A", "linkText"],
+        ["css=.tutor-nav-item:nth-child(2) > .tutor-nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Q&A')]", "xpath:link"],
+        ["xpath=//main[@id='site-content']/div/div/div/main/div[2]/div/nav/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '#')])[4]", "xpath:href"],
+        ["xpath=//nav/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Q&A')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "90757ab7-05f7-4109-8e01-8823057c74d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-quesanswer-askquestion > .tutor-form-control",
+      "targets": [
+        ["css=.tutor-quesanswer-askquestion > .tutor-form-control", "css:finder"],
+        ["xpath=//div[@id='tutor-course-details-tab-questions']/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "400d90ee-8419-4dfb-8348-7081730adaa0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.tutor-quesanswer-askquestion > .tutor-form-control",
+      "targets": [
+        ["css=.tutor-quesanswer-askquestion > .tutor-form-control", "css:finder"],
+        ["xpath=//div[@id='tutor-course-details-tab-questions']/div/div/textarea", "xpath:idRelative"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "Testing Question"
+    }, {
+      "id": "055f7fb6-085a-4cba-b5c5-418ad6af60be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sidebar-ask-new-qna-submit-btn",
+      "targets": [
+        ["css=.sidebar-ask-new-qna-submit-btn", "css:finder"],
+        ["xpath=//div[@id='tutor-course-details-tab-questions']/div/div/div/button", "xpath:idRelative"],
+        ["xpath=//div/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bc072d44-0d9c-49f1-b605-5caf52c26732",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Account Dashboard",
+      "targets": [
+        ["linkText=Account Dashboard", "linkText"],
+        ["css=.submenu-is-open", "css:finder"],
+        ["xpath=//a[contains(text(),'Account Dashboard')]", "xpath:link"],
+        ["xpath=(//a[@onclick='return true'])[7]", "xpath:attributes"],
+        ["xpath=//li[@id='menu-item-504']/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://learnwithivey.co/dashboard/')]", "xpath:href"],
+        ["xpath=//li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Account Dashboard')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "05385fd4-aab0-4321-afbf-2690ff24fb59",
+      "comment": "",
+      "command": "click",
+      "target": "css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text",
+      "targets": [
+        ["css=.tutor-dashboard-menu-logout .tutor-dashboard-menu-item-text", "css:finder"],
+        ["xpath=//main[@id='site-content']/div/div/div[2]/div/ul/li[9]/a/span[2]", "xpath:idRelative"],
+        ["xpath=//li[9]/a/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "d69298ff-41f1-483c-9205-334b579888d2",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://learnwithivey.co/"],
+  "plugins": []
+}
